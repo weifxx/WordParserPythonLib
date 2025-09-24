@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+wordparser/__init__.py
+wordparser/reader.py
+wordparser/utils.py
+wordparser.egg-info/PKG-INFO
+wordparser.egg-info/SOURCES.txt
+wordparser.egg-info/dependency_links.txt
+wordparser.egg-info/top_level.txt

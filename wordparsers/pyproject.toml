@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordparser"
+version = "0.1.0"
+description = "Простая библиотека для извлечения текста, таблиц, свойств и изображений из DOCX"
+authors = [{ name = "Maxim Sviridov" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["docx", "word", "parser", "zip", "xml"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = ["wordparser"]
